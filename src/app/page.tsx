@@ -292,10 +292,6 @@ const PAINTINGS = [
   }
 ];
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(" ");
-}
-
 export default function GalleryPage() {
   const [open, setOpen] = useState<number | null>(null);
   return (
@@ -392,7 +388,7 @@ export default function GalleryPage() {
       {/* Mobile-only footer contact/info block */}
       <div className="block sm:hidden mt-16 mb-8 px-4">
         <div className="text-2xl sm:text-3xl font-medium mb-2" style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', fontWeight: 500, marginBottom: '30px' }}>
-          Feel free to get in touch if you'd like more information about or want to purchase any of the paintings, either via{' '}
+          Feel free to get in touch if you&#39;d like more information about or want to purchase any of the paintings, either via{' '}
           <a href="mailto:hello@timgreen.design" className="underline decoration-dotted underline-offset-2">email</a> or{' '}
           <a href="https://www.instagram.com/timgreen.studio/" target="_blank" rel="noopener noreferrer" className="underline decoration-dotted underline-offset-2">Instagram</a>.
         </div>
