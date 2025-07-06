@@ -96,7 +96,7 @@ const PAINTINGS = [
     size: "100x100cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "Not available (Courtesy of private collection, P. Vasili)",
+    price: "Not available (Courtesy of private collection, P. Vakili)",
     description: null
   },
   {
