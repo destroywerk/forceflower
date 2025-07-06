@@ -45,7 +45,7 @@ const PAINTINGS = [
       "/details/languagebreaks2.jpg",
       "/details/languagebreaks3.jpg"
     ],
-    size: "100x50cm",
+    size: "100x100cm",
     medium: "Oil on canvas",
     year: "2024",
     price: "£1200",
@@ -61,7 +61,7 @@ const PAINTINGS = [
       "/details/ontogenesis2.jpg",
       "/details/ontogenesis3.jpg"
     ],
-    size: "100x50cm",
+    size: "100x100cm",
     medium: "Oil on canvas",
     year: "2025",
     price: "£1200",
@@ -93,10 +93,10 @@ const PAINTINGS = [
       "/details/cupsof2.jpg",
       "/details/cupsof3.jpg"
     ],
-    size: "100x50cm",
+    size: "100x100cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "Not available (Courtesy of private collection, P. Vasili)",
+    price: "Not available (Courtesy of private collection, P. Vakili)",
     description: null
   },
   {
@@ -109,7 +109,7 @@ const PAINTINGS = [
       "/details/puddles2.jpg",
       "/details/puddles3.jpg"
     ],
-    size: "51x101cm",
+    size: "51x61cm",
     medium: "Oil on canvas",
     year: "2024",
     price: "£800",
@@ -125,7 +125,7 @@ const PAINTINGS = [
       "/details/thefantasy2.jpg",
       "/details/thefantasy3.jpg"
     ],
-    size: "51x101cm",
+    size: "51x61cm",
     medium: "Oil on canvas",
     year: "2025",
     price: "£800",
@@ -141,7 +141,7 @@ const PAINTINGS = [
       "/details/toophysical2.jpg",
       "/details/toophysical3.jpg"
     ],
-    size: "51x101cm",
+    size: "51x61cm",
     medium: "Oil on canvas",
     year: "2024",
     price: "£800",
@@ -157,10 +157,10 @@ const PAINTINGS = [
       "/details/watersrise2.jpg",
       "/details/watersrise3.jpg"
     ],
-    size: "51x101cm",
+    size: "25x30cm",
     medium: "Oil on canvas",
     year: "2025",
-    price: "£800",
+    price: "£400",
     description: null
   },
   {
@@ -172,10 +172,10 @@ const PAINTINGS = [
       "/details/psithurism1.jpg",
       "/details/psithurism2.jpg"
     ],
-    size: "25x50cm",
+    size: "25x30cm",
     medium: "Oil on canvas",
     year: "2025",
-    price: "£600",
+    price: "£400",
     description: null
   },
   {
@@ -188,10 +188,10 @@ const PAINTINGS = [
       "/details/theinchoate2.JPG",
       "/details/theinchoate3.JPG"
     ],
-    size: "25x50cm",
+    size: "25x30cm",
     medium: "Oil on canvas",
     year: "2025",
-    price: "£600",
+    price: "£400",
     description: null
   },
   {
@@ -220,7 +220,7 @@ const PAINTINGS = [
       "/details/thesong2.jpg",
       "/details/thesong3.jpg"
     ],
-    size: "25x50cm",
+    size: "25x35cm",
     medium: "Oil on canvas",
     year: "2024",
     price: "£600",
@@ -236,7 +236,7 @@ const PAINTINGS = [
       "/details/growingpains2.jpg",
       "/details/growingpains3.jpg"
     ],
-    size: "25x50cm",
+    size: "25x30cm",
     medium: "Oil on canvas",
     year: "2024",
     price: "£400",
@@ -284,7 +284,7 @@ const PAINTINGS = [
       "/details/ourbrownian2.jpg",
       "/details/ourbrownian3.jpg"
     ],
-    size: "30x60cm",
+    size: "30x40cm",
     medium: "Oil on canvas",
     year: "2024",
     price: "£600",
