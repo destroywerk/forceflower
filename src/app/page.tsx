@@ -295,7 +295,7 @@ const PAINTINGS = [
 export default function GalleryPage() {
   const [open, setOpen] = useState<number | null>(null);
   return (
-    <div className="min-h-screen bg-white px-4 pb-12 pt-8 sm:px-8 font-sans">
+    <div className="min-h-screen bg-white text-black dark:bg-white dark:text-black px-4 pb-12 pt-8 sm:px-8 font-sans">
       <header className="w-full flex flex-col items-start mb-12">
         <h1 className="text-5xl sm:text-7xl font-medium mb-2" style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', fontWeight: 500 }}>
           THE FORCE THAT DRIVES THE FLOWER
