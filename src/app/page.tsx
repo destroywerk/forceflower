@@ -294,6 +294,7 @@ const PAINTINGS = [
 
 export default function GalleryPage() {
   const [open, setOpen] = useState<number | null>(null);
+  const [showFullText, setShowFullText] = useState(false);
   return (
     <div className="min-h-screen bg-white text-black dark:bg-white dark:text-black px-4 pb-12 pt-8 sm:px-8 font-sans">
       <header className="w-full flex flex-col items-start mb-12">
@@ -321,6 +322,46 @@ export default function GalleryPage() {
           </div>
         </div>
       </header>
+      <div className="w-full mb-12">
+        <p className="text-lg sm:text-xl leading-relaxed" style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', fontWeight: 300 }}>
+          "The Force That Drives the Flower" is a solo exhibition of oil paintings, over a variety of scales, exploring the inherent, undeniable connection between all living things. The title, inspired by the Dylan Thomas poem, introduces this as a vibrant celebration of the universal pulse that animates human, animal, aquatic, botanical life, and the primal matter of the cosmos.
+        </p>
+        <div className="hidden sm:block">
+          <p className="text-lg sm:text-xl leading-relaxed mt-4" style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', fontWeight: 300 }}>
+            Existing at the threshold between colour and translucency, the main themes (pink, blue, and green) are representative of the "humours" of life - flesh, water/air, and flora. The combination of tenderness and interspersed boundaries are asking us to consider what the margins are between where the atoms that manifest us end and the rest of the world begins. Particularly where those edges dissolve in reference to sexuality and mitosis and the implications of internal bodies, human and otherwise.
+          </p>
+          <p className="text-lg sm:text-xl leading-relaxed mt-4" style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', fontWeight: 300 }}>
+            Through the oscillation between texture and subtlety, the oils create pulsing and organic forms that allow multiple viewings to find different structures and resonances in the subjects. The visibility of the brush strokes imply the hand of the artist and the work is simultaneously abstract and tangible, suggesting the first & second bodies of the artist and viewer as in Daisy Hildyard's 2017 novel The Second Body. The experimentation across scales weaves a coherent collection that alludes to the tapestry of life and the concept of interbeing that the series insists upon.
+          </p>
+        </div>
+        <div className="block sm:hidden">
+          {showFullText && (
+            <>
+              <p className="text-lg sm:text-xl leading-relaxed mt-4" style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', fontWeight: 300 }}>
+                Existing at the threshold between colour and translucency, the main themes (pink, blue, and green) are representative of the "humours" of life - flesh, water/air, and flora. The combination of tenderness and interspersed boundaries are asking us to consider what the margins are between where the atoms that manifest us end and the rest of the world begins. Particularly where those edges dissolve in reference to sexuality and mitosis and the implications of internal bodies, human and otherwise.
+              </p>
+              <p className="text-lg sm:text-xl leading-relaxed mt-4" style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', fontWeight: 300 }}>
+                Through the oscillation between texture and subtlety, the oils create pulsing and organic forms that allow multiple viewings to find different structures and resonances in the subjects. The visibility of the brush strokes imply the hand of the artist and the work is simultaneously abstract and tangible, suggesting the first & second bodies of the artist and viewer as in Daisy Hildyard's 2017 novel The Second Body. The experimentation across scales weaves a coherent collection that alludes to the tapestry of life and the concept of interbeing that the series insists upon.
+              </p>
+            </>
+          )}
+          <button 
+            onClick={() => setShowFullText(!showFullText)}
+            className="mt-4 text-sm text-gray-600 flex items-center gap-1 hover:text-gray-800 transition-colors"
+            style={{ fontFamily: 'Helvetica Neue, Helvetica, Arial, sans-serif', fontWeight: 300 }}
+          >
+            {showFullText ? 'Show less' : 'Read more'}
+            <svg 
+              className={`w-4 h-4 transition-transform ${showFullText ? 'rotate-180' : ''}`} 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+        </div>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {PAINTINGS.map((painting, idx) => (
           <React.Fragment key={painting.slug}>
