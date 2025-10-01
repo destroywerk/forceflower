@@ -16,7 +16,7 @@ const PAINTINGS = [
     size: "100x100cm",
     medium: "Oil on canvas",
     year: "2024-5",
-    price: "£1200",
+    
     description: null
   },
   {
