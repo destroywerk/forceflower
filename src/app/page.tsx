@@ -32,7 +32,7 @@ const PAINTINGS = [
     size: "100x100cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£1200",
+    
     description: null
   },
   {
@@ -48,7 +48,7 @@ const PAINTINGS = [
     size: "100x100cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£1200",
+    
     description: null
   },
   {
@@ -64,7 +64,7 @@ const PAINTINGS = [
     size: "100x100cm",
     medium: "Oil on canvas",
     year: "2025",
-    price: "£1200",
+    
     description: null
   },
   {
@@ -80,7 +80,7 @@ const PAINTINGS = [
     size: "100x100cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£1200",
+    
     description: null
   },
   {
@@ -112,7 +112,7 @@ const PAINTINGS = [
     size: "51x61cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£800",
+    
     description: null
   },
   {
@@ -128,7 +128,7 @@ const PAINTINGS = [
     size: "51x61cm",
     medium: "Oil on canvas",
     year: "2025",
-    price: "£800",
+    
     description: null
   },
   {
@@ -144,7 +144,7 @@ const PAINTINGS = [
     size: "51x61cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£800",
+    
     description: null
   },
   {
@@ -160,7 +160,7 @@ const PAINTINGS = [
     size: "25x30cm",
     medium: "Oil on canvas",
     year: "2025",
-    price: "£400",
+    price: "Not available (Courtesy of private collection, J. Vafeiadou)",
     description: null
   },
   {
@@ -175,7 +175,7 @@ const PAINTINGS = [
     size: "25x30cm",
     medium: "Oil on canvas",
     year: "2025",
-    price: "£400",
+    
     description: null
   },
   {
@@ -191,7 +191,7 @@ const PAINTINGS = [
     size: "25x30cm",
     medium: "Oil on canvas",
     year: "2025",
-    price: "£400",
+    
     description: null
   },
   {
@@ -207,7 +207,7 @@ const PAINTINGS = [
     size: "100x50cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£1000",
+    
     description: null
   },
   {
@@ -223,7 +223,7 @@ const PAINTINGS = [
     size: "25x35cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£600",
+    
     description: null
   },
   {
@@ -239,7 +239,7 @@ const PAINTINGS = [
     size: "25x30cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£400",
+    
     description: null
   },
   {
@@ -255,7 +255,7 @@ const PAINTINGS = [
     size: "20x15cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£250",
+    
     description: null
   },
   {
@@ -271,7 +271,7 @@ const PAINTINGS = [
     size: "20x15cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£250",
+    
     description: null
   },
   {
@@ -287,7 +287,7 @@ const PAINTINGS = [
     size: "30x40cm",
     medium: "Oil on canvas",
     year: "2024",
-    price: "£600",
+    
     description: null
   }
 ];
